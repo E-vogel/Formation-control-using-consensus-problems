@@ -31,9 +31,19 @@ The Laplacian matrix $L$ captures the connectivity of the network and the intera
 ## Codes
 
 - ***formation_control_preview.m:*** This is the main code. Formation control is performed using consensus problems. The formation transforms in the order of stars, hearts, and butterflies.
+  
+  ***Click here to open preview file in MATLAB Online.***
+  
+  [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=E-vogel/Formation-control-using-consensus-problems&file=formation_control_preview.m)
+  
+
+![butterfly_formation](https://github.com/E-vogel/Formation-control-using-consensus-problems/assets/170056861/ce1c49c9-383c-4f9c-856a-a98c9f0aec7a)
+  
 - ***formation_control_compare.m:*** Visualize the difference in formation formation speed and retention due to the sparsity of the graph.
   
-- ***formation_control.m*** Please use it when you make a formation with your favorite image.
+  ![formation_control_compare](https://github.com/E-vogel/Formation-control-using-consensus-problems/assets/170056861/b19abf77-1879-48a4-bd7d-e6d024e0f44a)
+
+- ***formation_control.m:*** Please use it when you make a formation with your favorite image.
 - ***ImagetoCoordinate.m:*** Converts image data to xy point cloud data. Use this function when you form a formation using your favorite image.
 
 *If you use your favorite image, generate a csv file with *ImagetoCoordinate.m* and then run *formation_control.m*.
