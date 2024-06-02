@@ -46,9 +46,13 @@ The Laplacian matrix $L$ captures the connectivity of the network and the intera
 - ***formation_control.m:*** Please use it when you make a formation with your favorite image.
 - ***ImagetoCoordinate.m:*** Converts image data to xy point cloud data. Use this function when you form a formation using your favorite image.
 
-*If you use your favorite image, generate a csv file with *ImagetoCoordinate.m* and then run *formation_control.m*.
+*If you use your favorite image, generate a mat file with *ImagetoCoordinate.m* and then run *formation_control.m*.
 
+===== Added on 2024/06/02 =====
 
+- ***formation_control_3D_animation.m:*** Generate 3D animations using formation control. The two folders *Trex_ani_xyzdata* and *butterfly_ani_xyzdata* must be in the same directory.
+
+![3D_Trex](https://github.com/E-vogel/Formation-control-using-consensus-problems/assets/170056861/a6452717-fe14-4f4e-8045-6392e3419896)
 
 ## Reference
 Reza Olfati-Saber, J. Alex Fax, Richard M. Murray, “Consensus and Cooperation in Networked Multi-Agent Systems,” Proceedings of the IEEE, vol. 95, pp. 215–233, 2007.
